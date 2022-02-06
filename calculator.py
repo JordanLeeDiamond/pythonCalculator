@@ -2,29 +2,11 @@
 
 # Simple Python Calculator
 
-# Add Function
+# Variables
 
-def add(x, y):
-    return x + y
+num1 = input("> ")
+num2 = input("> ")
 
-# Subtract Function
+result = float(num1) + float(num2)
 
-def subtract(x, y):
-    return x - y
-
-# Multiply Function
-
-def multiply(x, y):
-    return x * y
-
-# Divide Function
-
-def divide(x, y):
-    return x / y
-
-
-print("Select a function")
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
+print(result)
